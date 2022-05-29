@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<div class="background-image"> 
+    <h1 style="font-size:10vw">Mini Library of Babel</h1>
+    <!-- <h2 style="font-size:2vw;"> The following book has been retrieved!</h2> -->
+    <h3 style="font-size:3vw; text-align:center; font-family: monospace;"> {{ title }}</h3>
+    <p style="font-size:1vw; text-align:center; font-family: monospace;">
+        {% if name %}
+        {% autoescape false %}
+            {{ name }}<br>
+            {% endautoescape %}
+        {% else %}
+            <br>
+        {% endif %}
+    </p>
+    
+
+</div>
+</body>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .background-image {
+        background-image: url('/static/image/pexels-janko-ferlic-590493.jpg');
+        background-repeat: no-repeat; 
+        background-size: cover;
+        height: 100vh;
+    }
+</style>
+</html>
