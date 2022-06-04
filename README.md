@@ -5,7 +5,7 @@
 
 This is a simple website developed with flask, html, css, and Docker. You can visit the hosted version on heroku [link](https://mini-library-of-babel.herokuapp.com/). It generates a random sequence of letters. You might find some coherent sentences or phrases (even Shakespeare if you are really lucky)!
 
-![](header.png)
+
 
 ## Installation
 
